@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4290563581871206719
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4290563581871206718}
+  - component: {fileID: 4290563581871206691}
+  - component: {fileID: 4290563581871206716}
+  - component: {fileID: 4290563581871206717}
+  m_Layer: 5
+  m_Name: Picture
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &4290563581871206718
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4290563581871206719}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -663, y: -198}
+  m_SizeDelta: {x: 532, y: 340}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &4290563581871206691
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4290563581871206719}
+  m_CullTransparentMesh: 1
+--- !u!114 &4290563581871206716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4290563581871206719}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 697d9f3f3a967ee4db00288552d9670d, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &4290563581871206717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4290563581871206719}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74eaf6ebdbbcf854eb1d1e91f2e8d5eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  paintScaleController: {fileID: 0}
+  pictures:
+  - {fileID: 21300000, guid: 697d9f3f3a967ee4db00288552d9670d, type: 3}
+  - {fileID: 21300000, guid: e874ae6c401bc0a429d97abb88934ccd, type: 3}
+  - {fileID: 21300000, guid: 195b1011abe6f0845833ed2d2c03c399, type: 3}
+  - {fileID: 21300000, guid: 2bf71d94abe782047aa82c2630cd74dc, type: 3}
+  - {fileID: 21300000, guid: a20f83f26b048564ca4940e3c129b6f7, type: 3}
+  - {fileID: 21300000, guid: 4f8e487564aef1d4b814e97f9092983f, type: 3}
+  - {fileID: 21300000, guid: bc36c683585e6924c8236373de4b305d, type: 3}
+  - {fileID: 21300000, guid: a96081cc6cd119241b8976ac5a0adcf1, type: 3}
+  - {fileID: 21300000, guid: 7707b6fb3d9368f418f8ba5184eef723, type: 3}
+  - {fileID: 21300000, guid: 8d0f7086daec3ec46af79123b5e6aa84, type: 3}
+  - {fileID: 21300000, guid: b2fd8014b040c344e9748d28103a4c63, type: 3}
+  - {fileID: 21300000, guid: 0c680dda67580c54f8bdc09597157ba6, type: 3}
+  - {fileID: 21300000, guid: 496306a481e4ee54094dae37251cf7f6, type: 3}
+  - {fileID: 21300000, guid: d12922c2687ca284c9f6a87b210f2428, type: 3}
+  - {fileID: 21300000, guid: 0ac2bdc2b5b32854a88ac1539d417256, type: 3}
+  - {fileID: 21300000, guid: 1c37e2965ff18624e8dbf68046dab876, type: 3}
+  - {fileID: 21300000, guid: 28446f0d9e2725849890b2378a08ea4f, type: 3}
+  - {fileID: 21300000, guid: af8ee4103c6ad8845932d89ed743314c, type: 3}
+  - {fileID: 21300000, guid: 88cb2c398a6b4e947914b27a1c01edfd, type: 3}
+  - {fileID: 21300000, guid: 3abad19e3acd1904495825fee5427e08, type: 3}
+  - {fileID: 21300000, guid: 3d528bde1df790f4a9d71432d7a83264, type: 3}
+  pictureProperties: {fileID: 11400000, guid: 7f3badea9374c784b9dafe19d94fba2a, type: 2}
