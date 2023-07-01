@@ -1,7 +1,7 @@
 # Colors Of Life
 Проект командной разработки игры, выполненный в рамка гейм-джема по разработке за неделю.
 
-Ссылка на билд: https://drive.google.com/file/d/15QvEXrhdcT0gjMOM0G4Qycq1u7vNy5ux/view
+Ссылка на билд: https://drive.google.com/file/d/1SaQvWyj57eXyfQjVB8CU47f0tSUDrFr7/view?usp=drive_link
 
 Платформа: ПК.
 
